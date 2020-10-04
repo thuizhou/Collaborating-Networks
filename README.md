@@ -10,19 +10,20 @@ Specifically, one network (g) approximates the cumulative distribution function,
 ## Methods for Comparison
 We include four other methods also capable of estimating full distribution. They are:
 
-* Conformalized Quantile Regression(CQR):https://github.com/yromano/cqr
+* Conformalized Quantile Regression(CQR):https://github.com/yromano/cqr [1]
+
+* MC dropout(DP):https://github.com/yaringal/DropoutUncertaintyExps/blob/master/net/net.py [2]
+
+* Deep Ensembles(EN) [3]
+
+* Calibrated Regression(CR) [4]
+
 
 [1] Yaniv Romano, Evan Patterson, and Emmanuel J. Candes. [“Conformalized quantile regression.”](https://arxiv.org/abs/1905.03222) 2019. 
 
-* MC dropout(DP):https://github.com/yaringal/DropoutUncertaintyExps/blob/master/net/net.py
-
 [2]Gal, Yarin, and Zoubin Ghahramani. ["Dropout as a bayesian approximation: Representing model uncertainty in deep learning." international conference on machine learning".](http://proceedings.mlr.press/v48/gal16.pdf) 2016
 
-* Deep Ensembles(EN)
-
 [3]Lakshminarayanan, Balaji, Alexander Pritzel, and Charles Blundell. ["Simple and scalable predictive uncertainty estimation using deep ensembles."](http://papers.nips.cc/paper/7219-simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles.pdf) 2017.
-
-* Calibrated Regression(CR)
 
 [4] Kuleshov, Volodymyr, Nathan Fenner, and Stefano Ermon, ["Accurate uncertainties for deep learning using calibrated regression."](https://arxiv.org/pdf/1807.00263.pdf) 2018.
 
