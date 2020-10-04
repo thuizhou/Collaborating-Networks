@@ -32,13 +32,15 @@ The synthetic data follows a Weibull distribution with a unique scale and shape 
 
 
 CN more faithfully estimate the survival probability P(Y_i>1|X_i)
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
+[CN with f](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/cnfsuv1.pdf)|
+[CN with g](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/cngsuv1.pdf)|
+[EN and DP](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/endpsuv1.pdf)|
+[g-only](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/gsuv1.pdf)
+
 
 CN recover the ground truth survival function(1-CDF).
-
+[Weibull Example 1](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/syn2suv1.pdf)|
+[Weibull Example 2](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-2/syn2suv2.pdf)
 
 
 
