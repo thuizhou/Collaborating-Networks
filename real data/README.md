@@ -18,9 +18,9 @@ The preprocess is performed [cpu preprocess](https://github.com/thuizhou/Collabo
 
 
 
-The overall model calibration[calcpu](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf)
+The overall model calibration: [calcpu](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf)
 
-The overall model sharpness[shpcpu](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpul.pdf)
+The overall model sharpness: [shpcpu](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpul.pdf)
 
 
 
@@ -31,9 +31,9 @@ The preprocess is performed in [energy preprocess](https://github.com/thuizhou/C
 
 
 
-The overall model calibration[calen](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Energy/energyc.pdf)
+The overall model calibration: [calen](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Energy/energyc.pdf)
 
-The overall model sharpness[shpen](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Energy/energyl.pdf)
+The overall model sharpness: [shpen](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Energy/energyl.pdf)
 
 
 
@@ -45,9 +45,9 @@ The preprocess is performed in [mpg preprocess](https://github.com/thuizhou/Coll
 
 
 
-The overall model calibration [calmpg](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/MPG/mpgc.pdf)
+The overall model calibration: [calmpg](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/MPG/mpgc.pdf)
 
-The overall model sharpness [shpmpg](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/MPG/mpgl.pdf)
+The overall model sharpness: [shpmpg](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/MPG/mpgl.pdf)
 
 
 
@@ -60,9 +60,9 @@ The preprocess is performed in [crime preprocess](https://github.com/thuizhou/Co
 
 
 
-The overall model calibration [calcri](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Crime/crimec.pdf)
+The overall model calibration: [calcri](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Crime/crimec.pdf)
 
-The overall model sharpness [shpcri](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Crime/crimel.pdf)
+The overall model sharpness: [shpcri](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/Crime/crimel.pdf)
 
 
 
