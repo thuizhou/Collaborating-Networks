@@ -38,16 +38,16 @@ Overall:
 
 * CN has great recovery of the ground truth distribution in the synthetic examples:
 
-![cdf](synthetic examples/syn-1/syn1dist1.pdf)
+[Gaussian Sample](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist1.pdf)
 
 
 * CN has faithfull interval coverage(calibration)
 
-![cal](real data/CPU/cpuc.pdf)
+[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf
 
 * CN increases the interval sharpness:
 
-![sh](real data/CPU/cpul.pdf)
+[Sharpness plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpul.pdf)
 
 
 
