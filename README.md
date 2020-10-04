@@ -19,9 +19,11 @@ We include four other methods also capable of estimating full distribution. They
 [2]Gal, Yarin, and Zoubin Ghahramani. ["Dropout as a bayesian approximation: Representing model uncertainty in deep learning." international conference on machine learning".](http://proceedings.mlr.press/v48/gal16.pdf) 2016
 
 * Deep Ensembles(EN)
+
 [3]Lakshminarayanan, Balaji, Alexander Pritzel, and Charles Blundell. ["Simple and scalable predictive uncertainty estimation using deep ensembles."](http://papers.nips.cc/paper/7219-simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles.pdf) 2017.
 
 * Calibrated Regression(CR)
+
 [4] Kuleshov, Volodymyr, Nathan Fenner, and Stefano Ermon, ["Accurate uncertainties for deep learning using calibrated regression."](https://arxiv.org/pdf/1807.00263.pdf) 2018.
 
 
@@ -43,7 +45,7 @@ Overall:
 
 * CN has faithfull interval coverage(calibration)
 
-[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf
+[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf)
 
 * CN increases the interval sharpness:
 
