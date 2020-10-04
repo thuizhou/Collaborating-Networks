@@ -16,16 +16,15 @@ The synthetic data follows a Gaussian distribution with a unique mean and varian
 
 CN more faithfully generate the true 90% intervals for each sample:
 
-[CQR](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/cqrwidth.pdf)
-[EN and DP](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/endpwidth.pdf)
-[g-only](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/gwidth.pdf)
+[CQR](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/cqrwidth.pdf)|
+[EN and DP](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/endpwidth.pdf)|
+[g-only](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/gwidth.pdf)|
 [CN](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/gfwidth.pdf)
 
 
-CN recover the ground truth CDF.
-[Gaussian Example 1](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist1.pdf)
-
-[Gaussian Example 2](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist2.pdf)
+CN recover the ground truth CDF:
+[Gaussian Example 1](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist1.pdf)|
+[Gaussian Example 2](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn2dist2.pdf)
 
 
 #### syn-2: Weibull Distribution Example
