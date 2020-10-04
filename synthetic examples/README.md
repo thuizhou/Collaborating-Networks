@@ -15,12 +15,18 @@ Within each folder, the name of each notebook indicates the cooresponding method
 The synthetic data follows a Gaussian distribution with a unique mean and variance value for each sample. The synthetic procedure is included in each notebook within the folder. We generate 700 training samples and 300 evaluation samples. 
 
 CN more faithfully generate the true 90% intervals for each sample:
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
-![calib](Het_Gaussian_CN/calibration.png)
+
+[CQR](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/cqrwidth.pdf)
+[EN and DP](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/endpwidth.pdf)
+[g-only](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/gwidth.pdf)
+[CN](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/gfwidth.pdf)
+
 
 CN recover the ground truth CDF.
+[Gaussian Example 1](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist1.pdf)
+
+[Gaussian Example 2](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist2.pdf)
+
 
 #### syn-2: Weibull Distribution Example
 The synthetic data follows a Weibull distribution with a unique scale and shape parameter for each sample. The synthetic procedure is included in each notebook within the folder. We generate 700 training samples and 300 evaluation samples. 
