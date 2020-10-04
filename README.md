@@ -11,9 +11,11 @@ Specifically, one network (g) approximates the cumulative distribution function,
 We include four other methods also capable of estimating full distribution. They are:
 
 * Conformalized Quantile Regression(CQR):https://github.com/yromano/cqr
+
 [1] Yaniv Romano, Evan Patterson, and Emmanuel J. Candes. [“Conformalized quantile regression.”](https://arxiv.org/abs/1905.03222) 2019. 
 
 * MC dropout(DP):https://github.com/yaringal/DropoutUncertaintyExps/blob/master/net/net.py
+
 [2]Gal, Yarin, and Zoubin Ghahramani. ["Dropout as a bayesian approximation: Representing model uncertainty in deep learning." international conference on machine learning".](http://proceedings.mlr.press/v48/gal16.pdf) 2016
 
 * Deep Ensembles(EN)
@@ -27,22 +29,25 @@ We include four other methods also capable of estimating full distribution. They
 
 ## Experimental Details
 
-1. [property of learning f](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-181): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
-2. [synthetic examples](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-181): Two synthetic examples simulated from Gaussian and Weibull Distribution
-3. [real data](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-181): Four real data examples with data available at: http://archive.ics.uci.edu/ml/datasets.
+1. [property of learning f](https://github.com/thuizhou/Collaborating-Networks/tree/main/property%20of%20learning%20f): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
+2. [synthetic examples](https://github.com/thuizhou/Collaborating-Networks/tree/main/synthetic%20examples): Two synthetic examples simulated from Gaussian and Weibull Distribution
+3. [real data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real%20data): Four real data examples with data available at: http://archive.ics.uci.edu/ml/datasets.
 
 
 Overall:
 
 * CN has great recovery of the ground truth distribution in the synthetic examples:
 
+![cdf](synthetic examples/syn-1/syn1dist1.pdf)
 
 
 * CN has faithfull interval coverage(calibration)
 
+![cal](real data/CPU/cpuc.pdf)
 
 * CN increases the interval sharpness:
 
+![sh](real data/CPU/cpul.pdf)
 
 
 
