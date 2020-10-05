@@ -32,25 +32,25 @@ We include four other methods also capable of estimating full distribution. They
 
 ## Experimental Details
 
-1. [property of learning f](https://github.com/thuizhou/Collaborating-Networks/tree/main/property%20of%20learning%20f): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
-2. [synthetic examples](https://github.com/thuizhou/Collaborating-Networks/tree/main/synthetic%20examples): Two synthetic examples simulated from Gaussian and Weibull Distribution
-3. [real data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real%20data): Four real data examples with data available at: http://archive.ics.uci.edu/ml/datasets.
+1. [property_of_learning_f](https://github.com/thuizhou/Collaborating-Networks/tree/main/property_of_learning_f): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
+2. [synthetic_examples](https://github.com/thuizhou/Collaborating-Networks/tree/main/synthetic_examples): Two synthetic examples simulated from Gaussian and Weibull Distribution
+3. [real_data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real_data): Four real data examples with data available at: http://archive.ics.uci.edu/ml/datasets.
 
 
 Overall:
 
 * CN has great recovery of the ground truth distribution in the synthetic examples:
 
-[Gaussian Sample](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic%20examples/syn-1/syn1dist1.pdf)
+[Gaussian Sample](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1dist1.pdf)
 
 
 * CN has faithfull interval coverage(calibration)
 
-[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpuc.pdf)
+[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/CPU/cpuc.pdf)
 
 * CN increases the interval sharpness:
 
-[Sharpness plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real%20data/CPU/cpul.pdf)
+[Sharpness plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/CPU/cpul.pdf)
 
 
 
