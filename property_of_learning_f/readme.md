@@ -19,7 +19,6 @@ estimating conditional mean with MSE, the conditional median (QR\_0.5),the condi
   <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/pt_mseqr.png">
 </p>
 
-![mse](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/pt_mseqr.png)
 
 For the four variants of CN, they do not collapse to observed outcomes in all three cases.
 By introducing the joint learning scheme, CN-g is obviously better than U-g and CN-f in generating more faithfull and sharper intervals. 
@@ -28,33 +27,43 @@ By introducing the joint learning scheme, CN-g is obviously better than U-g and 
 Implementation of T-g:
 [tg](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Tg.ipynb): 
 
-![tgplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gc.png)
+<p align="center">
+  <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gc.png">
+</p>
+
 
 Implementation of U-g:
 [ug](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Ug.ipynb): 
 
-![ugplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gd.png)
-
+<p align="center">
+  <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gd.png">
+</p>
 
 Implementation of CN-g and CN-f
 [cngf](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/CNgf.ipynb): 
 
-![cngplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gfg.png)
+<p align="center">
+  <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gfg.png">
+</p>
 
-![cnfplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gff.png)
-
+<p align="center">
+  <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gff.png">
+</p>
 
 ### [convergence rate](https://github.com/thuizhou/Collaborating-Networks/tree/main/property_of_learning_f/convergence_rate) 
 Use the same synthetic example to compare the convergence rate of the three variantes.
 
 
-[mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/Tg_converge.ipynb): implementation of T-g
+[tg_converge](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/Tg_converge.ipynb): implementation of T-g
 
-[mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/Ug_converge.ipynb): implementation of U-g
+[ugconverge](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/Ug_converge.ipynb): implementation of U-g
 
 
-[mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/CNg_converge.ipynb): implementation of CN-g
+[cngfconverge](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/CNgf_converge.ipynb): implementation of CN-g and CN-f
 
-[Overall convergence rate](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/conv.pdf)
+<p align="center">
+  <img width="620" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/convergence_rate/conv.png">
+</p>
+
 
 
