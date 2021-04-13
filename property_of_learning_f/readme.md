@@ -20,7 +20,7 @@ For the three variants of CN, they do not collapse to observed outcomes in all t
 By introducing the joint learning scheme, CN-g is obviously better than U-g in generating more faithfull and sharper intervals. 
 
 [mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Tg.ipynb): implementation of T-g
-[Result](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gc.pdf)
+[T-g](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gc.png)
 
 
 [mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Ug.ipynb): implementation of U-g
