@@ -2,33 +2,47 @@
 We include two synthetic examples in two folders syn-1, syn-2.
 Within each folder, the name of each notebook indicates the cooresponding method.
 
-* CN_TH.ipynb: CN and the ground truth 
-* DP.ipynb: MC dropout
-* CQR.ipynb: conformalized quantile regression
+* CN_TH.ipynb: CN-g CN-f and the ground truth 
 * g-only.ipynb: learning cdf with g in CN, and fix f as uniform distribution
+* DP.ipynb: MC dropout
+* CDP.ipynb: concrete dropout
+* CQR.ipynb: conformalized quantile regression
 * EN.ipynb: deep ensemble model 
+* GPR.ipynb: exact gaussain process regressor
+* PPGPR.ipynb: paramatric gaussain process regressor
+
 
 
 
 
 #### syn-1: Heteroskedastic Gaussian Example
-The synthetic data follows a Gaussian distribution with a unique mean and variance value for each sample. The synthetic procedure is included in each notebook within the folder. We generate 700 training samples and 300 evaluation samples. 
+The synthetic data follows a Gaussian distribution with a unique mean and variance value for each sample. The synthetic procedure is included in each notebook within the folder.
 
 CN more faithfully generate the true 90% intervals for each sample:
 
-[CQR](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/cqrwidth.pdf)|
-[EN and DP](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/endpwidth.pdf)|
-[g-only](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/gwidth.pdf)|
-[CN](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/gfwidth.pdf)
+
+<p align="center">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/gfwidth.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/gowidth.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/enwidth.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/dpwidth.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/gpwidth.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/cqrwidth.png">
+</p>
 
 
-CN recover the ground truth CDF:
-[Gaussian Example 1](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1dist1.pdf)|
-[Gaussian Example 2](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn2dist2.pdf)
+
+
+CN recover the ground truth CDF (2 random samples):
+<p align="center">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1TH1.png">
+  <img width="320" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1TH2.png">
+</p>
+
 
 
 #### syn-2: Weibull Distribution Example
-The synthetic data follows a Weibull distribution with a unique scale and shape parameter for each sample. The synthetic procedure is included in each notebook within the folder. We generate 700 training samples and 300 evaluation samples. 
+The synthetic data follows a Weibull distribution with a unique scale and shape parameter for each sample. The synthetic procedure is included in each notebook within the folder. 
 
 
 CN more faithfully estimate the survival probability P(Y_i>1|X_i)
