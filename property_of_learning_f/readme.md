@@ -14,20 +14,31 @@ simulates an overfitting example. We adopt an overparameterized neural network a
 [mlp_qr.ipynb](https://github.com/thuizhou/Collaborating-Networks/tree/main/property_of_learning_f/overfit_discover): Describe the data generating process. Evaluation data saved as xymusd.npy.
 This note book also illustrates that overfitting can easily happen by
 estimating conditional mean with MSE, the conditional median (QR\_0.5),the conditional 25'th quantile (QR_0.25), and the conditional 75'th quantile (QR_0.75) estimated by the quantile regression
+
+<p align="center">
+  <img width="420" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/pt_mseqr.png">
+</p>
+
 ![mse](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/pt_mseqr.png)
 
 For the four variants of CN, they do not collapse to observed outcomes in all three cases.
 By introducing the joint learning scheme, CN-g is obviously better than U-g and CN-f in generating more faithfull and sharper intervals. 
 
-[tg](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Tg.ipynb): implementation of T-g
+
+Implementation of T-g:
+[tg](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Tg.ipynb): 
+
 ![tgplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gc.png)
 
+Implementation of U-g:
+[ug](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Ug.ipynb): 
 
-[ug](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/Ug.ipynb): implementation of U-g
 ![ugplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gd.png)
 
 
-[cngf](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/CNgf.ipynb): implementation of CN-g and CN-f
+Implementation of CN-g and CN-f
+[cngf](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/CNgf.ipynb): 
+
 ![cngplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gfg.png)
 
 ![cnfplot](https://github.com/thuizhou/Collaborating-Networks/blob/main/property_of_learning_f/overfit_discover/dist_gff.png)
