@@ -52,6 +52,8 @@ We include four other methods also capable of estimating full distribution. They
 1. [property_of_learning_f](https://github.com/thuizhou/Collaborating-Networks/tree/main/property_of_learning_f): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
 2. [synthetic_examples](https://github.com/thuizhou/Collaborating-Networks/tree/main/synthetic_examples): Two synthetic examples simulated from Gaussian and Weibull Distribution
 3. [real_data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real_data): Five real data examples.
+4. [2d_example](https://github.com/thuizhou/Collaborating-Networks/tree/main/2d_example): Extend CN for 2 dimensional outcomes.
+
 
 
 Overall:
@@ -77,6 +79,23 @@ Overall:
 * CN increases the interval sharpness:
 <p align="center">
   <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/Energy/energyl.png">
+</p>
+
+
+* CN can also be extended for multi-output problems.
+
+Scatter plot of estimated distribution(left) versus true distribution(right):
+<p align="center">
+  <img width="350" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/2d_example/scatter_est.png">
+  <img width="350" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/2d_example/scatter_true.png">
+</p>
+
+
+CDF of estimated distribution(left) versus true distribution(right):
+
+<p align="center">
+  <img width="350" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/2d_example/est2dcdf.png">
+  <img width="350" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/2d_example/true2dcdf.png">
 </p>
 
 
