@@ -6,26 +6,43 @@ Specifically, one network (g) approximates the cumulative distribution function,
 
 
 
-
 ## Methods for Comparison
 We include four other methods also capable of estimating full distribution. They are:
 
-* Conformalized Quantile Regression(CQR):https://github.com/yromano/cqr [1]
 
-* MC dropout(DP):https://github.com/yaringal/DropoutUncertaintyExps/blob/master/net/net.py [2]
+* MC dropout(DP):https://github.com/yaringal/DropoutUncertaintyExps/blob/master/net/net.py [1]
 
-* Deep Ensembles(EN) [3]
+* Calibrated Regression(CR) [2]
 
-* Calibrated Regression(CR) [4]
+* Concrete dropout(CDP):https://github.com/yaringal/ConcreteDropout [3]
+
+* Gaussian Process Regressor(GPR):https://docs.gpytorch.ai/en/v1.1.1/examples/01_Exact_GPs/ 
+
+* Parametric Gaussian Process Regressor (PPGRP): https://docs.gpytorch.ai/en/v1.1.1/marginal_log_likelihoods [4]
+
+* Conformalized Quantile Regression(CQR):https://github.com/yromano/cqr [5]
+
+* Deep Ensembles(EN): https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html [6]
 
 
-[1] Yaniv Romano, Evan Patterson, and Emmanuel J. Candes. [“Conformalized quantile regression.”](https://arxiv.org/abs/1905.03222) 2019. 
 
-[2]Gal, Yarin, and Zoubin Ghahramani. ["Dropout as a bayesian approximation: Representing model uncertainty in deep learning." international conference on machine learning".](http://proceedings.mlr.press/v48/gal16.pdf) 2016
 
-[3]Lakshminarayanan, Balaji, Alexander Pritzel, and Charles Blundell. ["Simple and scalable predictive uncertainty estimation using deep ensembles."](http://papers.nips.cc/paper/7219-simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles.pdf) 2017.
+[1] Gal, Yarin, and Zoubin Ghahramani. ["Dropout as a bayesian approximation: Representing model uncertainty in deep learning." In International Conference on Machine Learning,] (http://proceedings.mlr.press/v48/gal16.pdf) 2016.
 
-[4] Kuleshov, Volodymyr, Nathan Fenner, and Stefano Ermon, ["Accurate uncertainties for deep learning using calibrated regression."](https://arxiv.org/pdf/1807.00263.pdf) 2018.
+[2] Kuleshov, Volodymyr, Nathan Fenner, and Stefano Ermon, ["Accurate uncertainties for deep learning using calibrated regression." In International Conference on Machine Learning,] (http://proceedings.mlr.press/v80/kuleshov18a/kuleshov18a.pdf) 2018.
+
+[3] Gal, Y., Hron, J. and Kendall, ["Concrete dropout." In International Conference on Neural Information Processing Systems,] 
+(https://proceedings.neurips.cc/paper/2017/file/84ddfb34126fc3a48ee38d7044e87276-Paper.pdf) 2017.
+
+[4] Jankowiak, Martin, Geoff Pleiss, and Jacob Gardner, ["Parametric Gaussian process regressors." In International Conference on Machine Learning,] (http://proceedings.mlr.press/v119/jankowiak20a/jankowiak20a.pdf) 2020.
+
+
+[5] Yaniv Romano, Evan Patterson, and Emmanuel J. Candes. [“Conformalized quantile regression.” In International Conference on Neural Information Processing Systems,] (https://proceedings.neurips.cc/paper/2019/file/5103c3584b063c431bd1268e9b5e76fb-Paper.pdf) 2019. 
+
+
+
+[6]Lakshminarayanan, Balaji, Alexander Pritzel, and Charles Blundell. ["Simple and scalable predictive uncertainty estimation using deep ensembles."] (http://papers.nips.cc/paper/7219-simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles.pdf) 2017.
+
 
 
 
@@ -34,7 +51,7 @@ We include four other methods also capable of estimating full distribution. They
 
 1. [property_of_learning_f](https://github.com/thuizhou/Collaborating-Networks/tree/main/property_of_learning_f): CN's stability under overparameterization, and the merit of learning g and f jointly over learning g alone with a fixed f. 
 2. [synthetic_examples](https://github.com/thuizhou/Collaborating-Networks/tree/main/synthetic_examples): Two synthetic examples simulated from Gaussian and Weibull Distribution
-3. [real_data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real_data): Four real data examples with data available at: http://archive.ics.uci.edu/ml/datasets.
+3. [real_data](https://github.com/thuizhou/Collaborating-Networks/tree/main/real_data): Five real data examples.
 
 
 Overall:
@@ -43,15 +60,27 @@ Overall:
 
 [Gaussian Sample](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1dist1.pdf)
 
+<p align="center">
+  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1TH1.pdf">
+  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-2/syn1TH2.pdf">
+</p>
+
 
 * CN has faithfull interval coverage(calibration)
 
-[Calibration plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/CPU/cpuc.pdf)
+
+Calibration and sharpness:
+<p align="center">
+  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/real_data/Airline/airc.png">
+</p>
+
 
 * CN increases the interval sharpness:
 
-[Sharpness plot](https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/CPU/cpul.pdf)
-
+Calibration and sharpness:
+<p align="center">
+  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/real_data/Energy/energyl.png">
+</p>
 
 
 
