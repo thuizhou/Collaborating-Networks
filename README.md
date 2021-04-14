@@ -61,28 +61,23 @@ Overall:
 [Gaussian Sample](https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1dist1.pdf)
 
 <p align="center">
-  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1TH1.pdf">
-  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-2/syn1TH2.pdf">
+  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-1/syn1TH1.png">
+  <img width="400" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/syn-2/syn2TH2.png">
 </p>
 
 
 * CN has faithfull interval coverage(calibration)
 
 
-Calibration and sharpness:
 <p align="center">
-  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/real_data/Airline/airc.png">
+  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/Airline/airc.png">
 </p>
 
 
 * CN increases the interval sharpness:
-
-Calibration and sharpness:
 <p align="center">
-  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/synthetic_examples/real_data/Energy/energyl.png">
+  <img width="700" src="https://github.com/thuizhou/Collaborating-Networks/blob/main/real_data/Energy/energyl.png">
 </p>
-
-
 
 
 
