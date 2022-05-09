@@ -1,8 +1,7 @@
 # Collaborating-Networks
 
-This repository contains the code associated with examples of paper by Zhou, Li, Yuan and Carlson. The manuscript is now available on Arxiv (https://arxiv.org/abs/2002.05212). These examples illustrate how to use collaborating networks(CN) to estimate the conditional distribution Y|X=x of continuous outcome.
-Specifically, one network (g) approximates the cumulative distribution function, and the second network (f) approximates its inverse.
-
+This repository contains the code associated with examples of paper by Zhou, Li, Yuan and Carlson. The manuscript is now available on  https://jmlr.org/papers/volume22/20-1100/20-1100.pdf. These examples illustrate how to use collaborating networks(CN) to estimate the conditional distribution Y|X=x of continuous outcome.
+Specifically, one network (g) approximates the cumulative distribution function, and the second network (f) approximates its inverse. Simple example can be found in [CN_example.ipynb](https://github.com/thuizhou/Collaborating-Networks/tree/main/CN_example.ipynb) .
 
 
 
